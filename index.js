@@ -116,7 +116,7 @@ const addManager = () => {
           addIntern();
           break;
         default:
-          writeToFile("dist/index.html", generateHTML(team));
+          writeToFile("./dist/index.html", generateHTML(team));
       }
     });
 };

@@ -5,8 +5,8 @@ const Manager = require("../lib/Manager");
 
 describe("Manager", () => {
   
-  describe("Manager object instantiation", () => {
-    it("Creates an object with name, id, email and officeNumber properties", () => {
+  describe("Creating Manager Object", () => {
+    it("Creates an object with the information for name, id, email and officeNumber", () => {
         const manager = new Manager("Nick Fury", 3, "nickfury@gmail.com", 99);
     
         //same as employee
